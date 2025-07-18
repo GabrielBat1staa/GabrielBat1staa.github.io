@@ -1,0 +1,53 @@
+ header  {
+            display: flex;
+            justify-content: space-between;
+            background-color: #650D18;
+            border-bottom: 10px solid black ;
+            padding-left: 20px ;
+            padding-right: 20px ;
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+        }
+
+nav {
+    text-align: right;
+}
+         
+
+ a   {
+    display: inline-flex;    
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;    
+    font-weight: 500;
+    text-decoration: none; /*remover sublinhado do link*/
+    margin-right: 30px;
+}
+
+a::before {           /*pseudo elemento tag fake css*/
+    content:"";
+     background-color: #575757;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+
+#button { /*seletor de id usa #*/
+    display: inline-block;
+    background-color: #575757;
+    box-shadow: 5px 5px 0 black;
+    padding-top: 18px;
+    padding-right: 20px;
+    padding-bottom: 18px;
+    padding-left: 20px;
+    margin-right: 0px;
+}
+
+#button:hover {
+    background-color: rgb(165, 5, 5);
+}
+            
+            
