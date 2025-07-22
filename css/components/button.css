@@ -1,0 +1,20 @@
+.button { /*seletor de id usa #*/
+    display: inline-block;
+    background-color: #011C27;
+    box-shadow: 5px 5px 0 black;
+    padding-top: 18px;
+    padding-right: 20px;
+    padding-bottom: 18px;
+    padding-left: 20px;
+    margin-right: 0px;
+    font-size: 20px;
+    color: #fdfffc;
+    transition: transform 250ms;  /*define propriedade da transiçao da animacao*/
+}
+
+.button:hover {   /*forma de modificar o botao quando o mouse em cima*/
+    transform: scale(1.08);
+    background-color: rgb(165, 5, 5);
+   
+}
+  
