@@ -1,4 +1,4 @@
-.button { /*seletor de id usa #*/
+.main-button { /*seletor de id usa #*/
     display: inline-block;
     background-color: #011C27;
     box-shadow: 5px 5px 0 black;
@@ -12,7 +12,11 @@
     transition: transform 250ms;  /*define propriedade da transiçao da animacao*/
 }
 
-.button:hover {   /*forma de modificar o botao quando o mouse em cima*/
+.main-button.-bg{
+    background-color: #910a44;
+}
+
+.main-button:hover {   /*forma de modificar o botao quando o mouse em cima*/
     transform: scale(1.08);
     background-color: rgb(165, 5, 5);
    

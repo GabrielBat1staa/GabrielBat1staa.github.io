@@ -3,7 +3,7 @@ body, h1, h2, h3    {
     font-family: "Fira Code", Arial, Helvetica, sans-serif;    
 }
 
-.button {
+button, a {
     border: none;
     font: inherit;
     text-decoration: none;
