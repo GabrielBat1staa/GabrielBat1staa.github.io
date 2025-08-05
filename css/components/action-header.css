@@ -1,4 +1,4 @@
-.action   {
+.action-header   {
     display: inline-flex;    
     align-items: center;
     color: #fdfffc;
@@ -9,7 +9,7 @@
     margin-right: 30px;
 }
 
-.action  ::before {           /*pseudo elemento tag fake css*/
+.action-header  ::before {           /*pseudo elemento tag fake css*/
     content:"";
      background-color: #011C27;
     width: 10px;
